@@ -22,7 +22,7 @@ resource "google_compute_instance" "spark_master" {
   tags = ["spark-node"]
 
   metadata = {
-    ssh-keys = "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC69zRrIiBg4krQbBusRQ6NwzFzQ1+BlL3LkN5tMor0Om/Y7BMKfBg2hc8GdHwrOtZVL/+82EkeZgVF9JHt78vOlHYJOFWwEVjvq6TcJaIoukDjZfQR99ndwyi91naCC0UBKDfbcGsQRjiBKz5t0r+jExwg9QHCpKZkm/ykZnYW7CelxSxst1RUoFdbAdr6Dun5d9iLMRneEOYtaeVL/kLUV2zUgfzsvxAMTdHcHEyWiOrnf9wWRKC2y/tiZhc4G5v2HI0ODatmiC9PM71dFC6+N0kZqO6ekwdqDUh/YGQ+YliNwPsx3XJdPgRD1G0npNkHiU8ZmuvGMBDMJhVWB5wr btn150103@gmail.com"
+    ssh-keys = "Add public ssh key here"
   }
 }
 resource "google_compute_instance" "spark_worker" {
@@ -48,7 +48,7 @@ resource "google_compute_instance" "spark_worker" {
   tags = ["spark-node"]
 
   metadata = {
-    ssh-keys = "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC69zRrIiBg4krQbBusRQ6NwzFzQ1+BlL3LkN5tMor0Om/Y7BMKfBg2hc8GdHwrOtZVL/+82EkeZgVF9JHt78vOlHYJOFWwEVjvq6TcJaIoukDjZfQR99ndwyi91naCC0UBKDfbcGsQRjiBKz5t0r+jExwg9QHCpKZkm/ykZnYW7CelxSxst1RUoFdbAdr6Dun5d9iLMRneEOYtaeVL/kLUV2zUgfzsvxAMTdHcHEyWiOrnf9wWRKC2y/tiZhc4G5v2HI0ODatmiC9PM71dFC6+N0kZqO6ekwdqDUh/YGQ+YliNwPsx3XJdPgRD1G0npNkHiU8ZmuvGMBDMJhVWB5wr btn150103@gmail.com"
+    ssh-keys = " Add public ssh key here"
 }
 }
 resource "google_compute_instance" "spark_edge" {
@@ -73,6 +73,6 @@ resource "google_compute_instance" "spark_edge" {
   tags = ["spark-node"]
 
   metadata = {
-    ssh-keys = "ubuntu:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC69zRrIiBg4krQbBusRQ6NwzFzQ1+BlL3LkN5tMor0Om/Y7BMKfBg2hc8GdHwrOtZVL/+82EkeZgVF9JHt78vOlHYJOFWwEVjvq6TcJaIoukDjZfQR99ndwyi91naCC0UBKDfbcGsQRjiBKz5t0r+jExwg9QHCpKZkm/ykZnYW7CelxSxst1RUoFdbAdr6Dun5d9iLMRneEOYtaeVL/kLUV2zUgfzsvxAMTdHcHEyWiOrnf9wWRKC2y/tiZhc4G5v2HI0ODatmiC9PM71dFC6+N0kZqO6ekwdqDUh/YGQ+YliNwPsx3XJdPgRD1G0npNkHiU8ZmuvGMBDMJhVWB5wr btn150103@gmail.com"
+    ssh-keys = " Add public ssh key here "
   }
 }
